@@ -59,7 +59,7 @@ section.banner{
     background-color: gray;
     background-image: url(../imagens/pexels-photo-2831794.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center left;
 
     display: flex;
