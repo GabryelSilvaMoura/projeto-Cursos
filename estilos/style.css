@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+}
+
+header{
+    background-color: black;
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    column-gap: 30px;
+}
+
+header ul > li a{
+    text-decoration: none;
+    color: white;
+}
+
+header ul > li a:hover{
+    text-decoration: underline;
+}
+
+header > div img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+header > div img:hover{
+    width: 55px;
+    height: 55px;
+}
+
+/* Conteudo Principal */
+main{
+    width: 100%;
+}
+
+/* Banner */
+section.banner{
+    height: 400px;
+    width: 100%;
+
+    background-color: gray;
+    background-image: url(../imagens/pexels-photo-2831794.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center left;
+
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+section.banner > div{
+    background-color: rgba(255, 255, 255, 0.63);
+    width: 400px;
+    height: 150px;
+    border-radius: 15px;
+
+    margin-right: 10%;
+}
+
+section.banner > div p {
+    padding: 10px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+/* Sessão 1 */
+
+section#prin{
+    display: flex;
+    flex-flow: wrap row;
+
+    padding: 40px 0px;
+}
+
+section#prin .ficha{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin: 10px;
+}
+
+section#prin .ficha > article{
+    width: 50%;
+    border-bottom: 3px solid black;
+    padding: 10px;
+}
+
+section#prin .ficha > article p{
+    line-height: 25px;
+    font-weight: 500;
+}
+
+/* Fotos da sessão 1 */
+.foto1{
+    height: 400px; 
+    width: 280px;
+    border-radius: 58px;
+    object-fit: cover;
+
+    box-shadow: 1px 1px 6px black;
+}
+.foto2{
+    height: 500px; 
+    width: 300px;
+    object-fit: cover;
+    border-radius: 58px;
+
+    box-shadow:  2px 1px 6px black;
+}
+
+/* Sessão 2 */
+
